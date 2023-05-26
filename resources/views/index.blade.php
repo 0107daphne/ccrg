@@ -21,9 +21,8 @@
         <div class="container">
             <div class="p-3 mb-2 bg-light text-gray d-flex">
                 <div class="w-50">
-                    <img src="{{url('/img/creativecomputing.png') }}">
-                    <img src="" height="60" alt="">
-                    <img src="creativecomputing.jpeg" height="80" alt="">
+                    <img src="{{url('/img/FKI.png') }}" height="80">
+                    <img src="{{url('/img/creativecomputing.png') }}" height="80">
                 </div>
                 <div class="flex-fill">
                     <h2 class="font-weight-light">FCI | CCRG</h2>
@@ -36,23 +35,46 @@
                 <p>Project AR application collaboration with Lembaga Kesenian dan Kebudayaan Negeri Sabah (LKNS)</p>
             </div>
             <hr>
-            <div class="p-3 mb-2">
-                <h4>AR DanceSabah</h4>
-                <p><a href="https://drive.google.com/file/d/1X3iN1Z60m7Ohk1YTdaQ7GDv7gORlfiJv/view" class="text-secondary">ARdance Privacy Policy</a></p>
-                <p>Youtube link: <a href="https://www.youtube.com/@lkns.project" class="text-muted">youtube.com/@lkns.project</a></p>
-                <form method="get" action="AR DanceSABAH.zip" >
-                        <button type="submit" class="p-2" style=" background-color: DodgerBlue; border: none; color: white">
-                        <i class="fa fa-download"></i> Download APK</button>
-                </form>
-
-
+            <div class="p-3 mb-2 row g-2">
+                <div class="col-6">
+                    <h4>AR DanceSabah</h4>
+                    <p><a href="https://drive.google.com/file/d/1X3iN1Z60m7Ohk1YTdaQ7GDv7gORlfiJv/view" class="text-secondary">ARdance Privacy Policy</a></p>
+                    <p>Youtube link: <a href="https://www.youtube.com/@lkns.project" class="text-muted">youtube.com/@lkns.project</a></p>
+                    <form method="get" action="download/AR DanceSABAH.zip" >
+                            <button type="submit" class="p-2" style=" background-color: DodgerBlue; border: none; color: white">
+                            Download APK</button>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="{{url('/img/Adai-adai.jpg') }}" class="d-block w-100" alt="Adai-adai">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="{{url('/img/Daling-daling.jpg') }}" class="d-block w-100" alt="Daling-daling">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="{{url('/img/Igal Limbayan Lelang.jpg') }}" class="d-block w-100" alt="Igal Limbayan Lelang">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="">Next</span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                    </div>
+                </div>
             </div>
             <hr>
             <div class="p-3 mb-2">
                 <h4>AR art</h4>
-                <form method="get" action="" >
+                <form method="get" action="download/ArtAR.zip" >
                         <button type="submit" class="p-2" style=" background-color: DodgerBlue; border: none; color: white">
-                        <i class="fa fa-download"></i> Download APK</button>
+                        Download APK</button>
                 </form>
             </div>
             <hr>
