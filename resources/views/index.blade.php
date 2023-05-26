@@ -19,7 +19,7 @@
 
     <body>
         <div class="container">
-            <div class="p-3 mb-2 bg-light text-gray d-flex">
+            <div class="p-3 mb-2 bg-light text-gray d-flex"></div>
                 <div class="w-50">
                     <img src="{{url('/img/FKI.png') }}" height="80">
                     <img src="{{url('/img/creativecomputing.png') }}" height="80">
