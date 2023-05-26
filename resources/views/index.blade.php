@@ -70,12 +70,19 @@
                 </div>
             </div>
             <hr>
-            <div class="p-3 mb-2">
-                <h4>AR art</h4>
-                <form method="get" action="download/ArtAR.zip" >
-                        <button type="submit" class="p-2" style=" background-color: DodgerBlue; border: none; color: white">
-                        Download APK</button>
-                </form>
+            <div class="p-3 mb-2 row g-2">
+                <div class="col-4">
+                    <h4>AR art</h4>
+                    <form method="get" action="download/HariKaamatanAR.apk" >
+                            <button type="submit" class="p-2" style=" background-color: DodgerBlue; border: none; color: white">
+                            Download APK</button>
+                    </form>
+                </div>
+                <div class="col-8 d-md-flex ">
+                    <img class="w-75" src="{{url('/img/Kerbau.jpeg') }}" >
+                    <img class="w-50 px-3" src="{{url('/img/Proboscis.jpeg') }}" >
+                </div>
+
             </div>
             <hr>
             <div class="p-3 mb-2">
@@ -83,17 +90,23 @@
                 <p>Kaamatan games link: <a href="http://mydiabetic-gamification.com/play" class="text-muted">mydiabetic-gamification.com/play</a></p>
             </div>
             <hr>
-            <div class="p-3 mb-2">
-                <h4>Antanom AR Storytelling book</h4>
-                    <form method="get" action="" >
+            <div class="p-3 mb-2 row g-2">
+                <div class="col-6">
+                    <h4>Antanom AR Storytelling book</h4>
+                    <form method="get" action="download/AR Antanom Storybook.apk" >
                         <button type="submit" class="p-2 mb-2" style=" background-color: DodgerBlue; border: none; color: white;">
                         <i class="fa fa-download"></i> Download APK</button>
                     </form>
 
-                    <form method="get" action="" >
+                    <form method="get" action="download/antanom.pdf" >
                         <button type="submit" class="p-2" style=" background-color: DodgerBlue; border: none; color: white">
                         <i class="fa fa-download"></i> Download Storybook</button>
                     </form>
+                </div>
+                <div class="col-6">
+                    <img class="w-100" src="{{url('/img/antanom.png') }}" >
+                </div>
+
             </div>
             <div class="p-3 mt-2 bg-dark-subtle text-center text-white">
                 <p class="text-hide"></p>
